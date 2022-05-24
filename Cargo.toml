@@ -12,3 +12,12 @@ external_doc = []
 features = ["external_doc"]
 
 [dependencies]
+
+[dev-dependencies]
+paste = "1.0.7"
+criterion = "0.3"
+libm = "0.2.2"
+
+[[bench]]
+name = "benches"
+harness = false
