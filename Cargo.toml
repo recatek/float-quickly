@@ -1,0 +1,14 @@
+[package]
+name = "float-quickly"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/recatek/float-quickly"
+license = "MIT OR Apache-2.0"
+
+[features]
+external_doc = []
+
+[package.metadata.docs.rs]
+features = ["external_doc"]
+
+[dependencies]
